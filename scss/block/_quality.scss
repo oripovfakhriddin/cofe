@@ -1,0 +1,255 @@
+.quality__container-box {
+    background-color: #2C343E;
+    border-radius: 10px;
+    z-index: -1;
+    height: 474px;
+
+}
+
+.quality__container-content {
+    margin: 0 auto;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // max-width: 1110px;
+}
+
+.quality__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.quality__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.quality__tablet {
+    display: none;
+}
+
+.quality__dektop {
+    margin-top: -100px;
+
+}
+
+.quality__img-box {
+    // flex-shrink: 0;
+    max-width: 445px;
+    padding-right: 85px;
+}
+
+.content__quality {
+    padding-top: 90px;
+    padding-left: 85px;
+    max-width: 610px;
+}
+
+
+// responsive tablet
+
+@media screen and (max-width:1000px) {
+
+
+    .quality__container-content {
+        position: relative;
+    }
+
+    .quality__tablet {
+        border-radius: 10px;
+        text-align: center;
+        top: -150px;
+        left: 176px;
+        max-width: 575px;
+        max-height: 300px;
+        display: inline-block;
+        position: absolute;
+    }
+
+    .quality__container-box {
+        height: auto;
+    }
+
+    .quality__dektop {
+        display: none;
+    }
+
+    .content__quality {
+        margin: 0 auto;
+    }
+
+    .quality__title {
+        font-size: 32px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .quality__text {
+        padding-bottom: 67px;
+        text-align: center;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .quality__tablet {
+        top: -150px;
+        left: 156px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .quality__tablet {
+        top: -150px;
+        left: 136px;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+    .quality__tablet {
+        top: -150px;
+        left: 120px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .quality__tablet {
+        top: -150px;
+        left: 90px;
+    }
+
+}
+
+@media screen and (max-width:775px) {
+    .quality__tablet {
+        top: -150px;
+        left: 70px;
+    }
+
+}
+
+
+@media screen and (max-width:750px) {
+    .content__quality {
+        width: 100%;
+        padding-left: 85px;
+        margin: 0 auto;
+    }
+
+    .quality__tablet {
+        left: 200px;
+        top: -80px;
+        max-width: 280px;
+        height: 160px;
+    }
+
+    .quality__title {
+        font-size: 32px;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .quality__tablet {
+        top: -80px;
+        left: 180px;
+    }
+
+}
+
+
+@media screen and (max-width:650px) {
+    .quality__tablet {
+        top: -80px;
+        left: 160px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .quality__tablet {
+        top: -80px;
+        left: 120px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .quality__tablet {
+        top: -80px;
+        left: 100px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .quality__tablet {
+        top: -80px;
+        left: 90px;
+    }
+
+    .content__quality {
+        padding-left: 70px;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    .quality__tablet {
+        top: -80px;
+        left: 60px;
+    }
+
+    .content__quality {
+        padding-left: 60px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .quality__tablet {
+        top: -80px;
+        left: 35px;
+    }
+
+    .content__quality {
+        padding-left: 30px;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    .quality__tablet {
+        top: -80px;
+        left: 25px;
+    }
+
+    .content__quality {
+        padding-left: 15px;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    .quality__tablet {
+        top: -80px;
+        left: 15px;
+    }
+
+    .content__quality {
+        padding-left: 10px;
+    }
+
+}
